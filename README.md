@@ -5,7 +5,7 @@ HomeGuard is a light-weight camera surveillance system consists of a combination
 
 
 ## A short video on how HomeGuard works (click on the thumbnail)
-[![Video](pics/thumbnail1.png)](https://youtu.be/9vQ3djnSB08)
+[![Vid Thumbnail](pics/thumbnail1.png)](https://youtu.be/9vQ3djnSB08)
 ## External Services used in HomeGuard
 1. TailScale VPN
 2. Google Firebase
