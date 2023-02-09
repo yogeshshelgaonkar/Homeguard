@@ -3,10 +3,9 @@
 ## What is HomeGuard?
 HomeGuard is a light-weight camera surveillance system consists of a combination of Raspberry Pi (Rpi), Rpi cameras and the android application.  
 
-![HomeGuard](pics/phonepi.png)  
 
 ## A short video on how HomeGuard works (click on the thumbnail)
-[![Vid Thumbnail](pics/thumbnail1.png)](https://youtu.be/9vQ3djnSB08)
+[![Video](pics/thumbnail1.png)](https://youtu.be/9vQ3djnSB08)
 ## External Services used in HomeGuard
 1. TailScale VPN
 2. Google Firebase
