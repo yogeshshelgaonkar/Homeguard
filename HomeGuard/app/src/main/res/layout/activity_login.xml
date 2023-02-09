@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRpiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/blue_logo" />
+
+        <TextView
+            android:id="@+id/simpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/homeguard"
+            android:textSize="40sp"
+            android:fontFamily="@font/sonny_gothic_bold"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:hint="@string/enter_email"
+        android:singleLine="true" />
+    <EditText
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:layout_below="@+id/email"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/login"
+        android:fontFamily="@font/sonny_gothic_book"/>
+
+    <TextView
+        android:id="@+id/askuserregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:text="@string/not_a_user"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:textColor="#818285"
+        android:textSize="11sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:layout_below="@+id/askuserregister"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/registeratlogin"/>
+
+</RelativeLayout>

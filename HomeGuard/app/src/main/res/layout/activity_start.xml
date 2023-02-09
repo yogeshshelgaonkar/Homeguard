@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/light_blue_logo" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginTop="505dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/quote">
+    </TextView>
+
+    <ImageView
+        android:src="@drawable/shield"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/simpleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/sonny_gothic_bold"
+        android:text="@string/homeguard"
+        android:textColor="@color/white"
+        android:textSize="0sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/sonny_gothic_book"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/sonny_gothic_book"
+            android:text="@string/register" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "927768913352",
+    "firebase_url": "https://android-base-7a30c-default-rtdb.firebaseio.com",
+    "project_id": "android-base-7a30c",
+    "storage_bucket": "android-base-7a30c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927768913352:android:d33cf1093e8ad5043eccfd",
+        "android_client_info": {
+          "package_name": "android.example.homeguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927768913352-la5mosofoulrevsh6bf27qtt3aahln9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.homeguard",
+            "certificate_hash": "fdc7454819a6163e47319ab2ac9c83230be2a031"
+          }
+        },
+        {
+          "client_id": "927768913352-r17ikq97kb73415ri9lpljea6s1c8udj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRvTg3XpN9PO2bX2djsZ02eR6Vbo2cwkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927768913352-r17ikq97kb73415ri9lpljea6s1c8udj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

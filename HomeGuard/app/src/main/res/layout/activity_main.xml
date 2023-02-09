@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_full_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/sonny_gothic_bold"
+        android:text="@string/homeguard">
+    </TextView>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:text="@string/cam_list">
+    </TextView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:src="@drawable/white_list_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="50dp"
+        android:scaleY="1.25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="300dp"
+        android:layout_height="480dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="70dp"
+        android:padding="20dp">
+    </ListView>
+
+    <ImageView
+        android:src="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="655dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/addCamButton"
+        android:background="@drawable/ic_baseline_add_circle_24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="678dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+    </ImageButton>
+
+    <TextView
+        android:text="@string/add_cam"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="755dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+
+</RelativeLayout>

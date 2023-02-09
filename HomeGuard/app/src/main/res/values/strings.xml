@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HomeGuard</string>
+    <string name="title_activity_ip_list">ipList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="default_call">tel:999</string>
+
+    <string name="homeguard">HomeGuard</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="check_user">Already an user? Go login</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="register_new_email">Register new email</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="not_a_user">Not a user yet? Register for an account to proceed.</string>
+
+    <string name="name_camera">Name your camera</string>
+    <string name="ip_camera">IP of your camera</string>
+    <string name="add_cam">Add Camera</string>
+
+    <string name="remove_cam">Remove Camera</string>
+    <string name="call_polis">Call Help</string>
+    <string name="back">Back</string>
+
+    <string name="quote">Protect your Loved Ones Anytime, Anywhere.</string>
+    <string name="cam_list">My Cameras:</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".AddRpiActivity">
+
+    <ImageView
+        android:src="@drawable/white_list_background"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+    </ImageView>
+
+    <ImageView
+        android:src="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+    </ImageView>
+
+    <EditText
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameinput"
+        android:hint="@string/name_camera"
+        android:autofillHints="eg:Kitchen"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ipinput"
+        android:hint="@string/ip_camera"
+        android:layout_below="@+id/nameinput"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:autofillHints="eg:110.1.12.0"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/addcamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ipinput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/sonny_gothic_book"
+        android:text="@string/add_cam" />
+
+
+
+
+
+<!--        android:layout_marginTop="200dp"/>-->
+
+</RelativeLayout>
